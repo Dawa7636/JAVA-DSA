@@ -18,13 +18,11 @@ public class pyramid8 {
                 j++;
             }
             int k = 1;
+            if (row == n) {
+                star --;
+            }
             while (k<=star) {
-                if (row == n) {
-                    System.out.print("* ");
-                    star --;
-                }else{
-                    System.out.print("* ");
-                }
+                System.out.print("* ");
                 k++;
             }
             System.out.println();
